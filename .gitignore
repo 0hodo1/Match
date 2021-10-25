@@ -1,2 +1,4 @@
 images/teamone/*
 images/teamtwo/*
+!images/teamone/readme.md
+!images/teamtwo/readme.md
