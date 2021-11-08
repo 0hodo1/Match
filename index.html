@@ -78,13 +78,13 @@
         <div class="col-6">
           <h2 id="name1" class="col-6" style="margin-left: 25%">Player 1</h2>
           <div class="photo shadow-lg rounded-circle" style="margin-left: 21%">
-            <img src="images/teamone/1.png" style="width: 380px; height: 350px" />
+            <img src="./images/teamone/1.png" style="width: 380px; height: 350px" />
           </div>
         </div>
         <div class="col-6">
           <h2 id="name2" style="margin-left: 10%">Player 2</h2>
           <div class="photo shadow-lg rounded-circle" style="margin-left: 27%">
-            <img src="images/teamtwo/1.png" style="width: 380px; height: 350px" />
+            <img src="./images/teamtwo/1.png" style="width: 380px; height: 350px" />
           </div>
         </div>
       </div>
@@ -125,8 +125,8 @@
           var player2 = Math.round(Math.random() * player2count + 1);
           var player1photo = document.getElementsByTagName("img")[0];
           var player2photo = document.getElementsByTagName("img")[1];
-          player1photo.src = "/images/teamone/" + player1 + ".png";
-          player2photo.src = "/images/teamtwo/" + player2 + ".png";
+          player1photo.src = "images/teamone/" + player1 + ".png";
+          player2photo.src = "images/teamtwo/" + player2 + ".png";
           document.getElementById("stopbutton").style.display = "inline";
           document.getElementById("startbutton").style.display = "none";
         }, 300);
