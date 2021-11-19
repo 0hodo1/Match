@@ -1,4 +1,4 @@
-images/teamone/*
-images/teamtwo/*
-!images/teamone/readme.md
-!images/teamtwo/readme.md
+src/images/teamone/*
+src/images/teamtwo/*
+!src/images/teamone/readme.md
+!src/images/teamtwo/readme.md
